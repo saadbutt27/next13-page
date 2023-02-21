@@ -1,6 +1,11 @@
 import Link from "next/link"
 import { products } from '../../../../data/products'
 
+// export async function getStaticParams() {
+//   const ids: string[] = ["1", "2", "3", "4", "5"];
+//   return ids.map(id => {id : id})
+// }
+
 async function getProduct(id: string) {
   const product = products.find(product => product.id === id);
   return product;

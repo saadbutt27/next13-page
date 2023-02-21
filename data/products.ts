@@ -19,8 +19,8 @@ export const products = [
     price: 2000 
   },
   {
-    id: "5",
-    name: "Smart Watch",
-    price: 20000 
+    id: "3",
+    name: "Smart Phone",
+    price: 35000 
   },
 ];

@@ -4,7 +4,7 @@ import { products } from '../data/products'
 type Product = {
   id: string,
   name: string,
-  price: number
+  price: number,
 }
 
 export default function Home() {
